@@ -1,0 +1,621 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js navy">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Random Useful Sites - [ rsapkf / 42 ]</title>
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 42</a></li><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">2.</strong> docs/</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../docs/knowledge-repositories.html"><strong aria-hidden="true">2.1.</strong> Knowledge Repositories</a></li><li class="chapter-item expanded "><a href="../docs/web-development.html"><strong aria-hidden="true">2.2.</strong> Web Development</a></li><li class="chapter-item expanded "><a href="../docs/programming.html"><strong aria-hidden="true">2.3.</strong> Programming</a></li><li class="chapter-item expanded "><a href="../docs/open-source-software.html"><strong aria-hidden="true">2.4.</strong> Open Source Software</a></li><li class="chapter-item expanded "><a href="../docs/linux-configuration.html"><strong aria-hidden="true">2.5.</strong> Linux Configuration</a></li><li class="chapter-item expanded "><a href="../docs/privacy-tools.html"><strong aria-hidden="true">2.6.</strong> Privacy Tools</a></li><li class="chapter-item expanded "><a href="../docs/software-and-services.html"><strong aria-hidden="true">2.7.</strong> Software and Services</a></li><li class="chapter-item expanded "><a href="../docs/coding-challenges.html"><strong aria-hidden="true">2.8.</strong> Coding Challenges</a></li><li class="chapter-item expanded "><a href="../docs/science-technology-and-mathematics.html"><strong aria-hidden="true">2.9.</strong> Science, Technology and Mathematics</a></li><li class="chapter-item expanded "><a href="../docs/moocs-and-courses.html"><strong aria-hidden="true">2.10.</strong> Massive Open Online Courses</a></li><li class="chapter-item expanded "><a href="../docs/free-to-read-books-and-guides.html"><strong aria-hidden="true">2.11.</strong> Free-To-Read Books and Guides</a></li><li class="chapter-item expanded "><a href="../docs/cubing-puzzles-and-magic.html"><strong aria-hidden="true">2.12.</strong> Cubing, Puzzles and Magic</a></li><li class="chapter-item expanded "><a href="../docs/random-useful-sites.html" class="active"><strong aria-hidden="true">2.13.</strong> Random Useful Sites</a></li><li class="chapter-item expanded "><a href="../docs/ebooks-and-research-papers.html"><strong aria-hidden="true">2.14.</strong> Ebooks and Research Papers</a></li><li class="chapter-item expanded "><a href="../docs/high-school.html"><strong aria-hidden="true">2.15.</strong> High School</a></li><li class="chapter-item expanded "><a href="../docs/extras.html"><strong aria-hidden="true">2.16.</strong> Extras</a></li><li class="chapter-item expanded "><a href="../docs/unsorted.html"><strong aria-hidden="true">2.17.</strong> Unsorted</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="../CONTRIBUTING.html"><strong aria-hidden="true">3.</strong> CONTRIBUTING</a></li><li class="chapter-item expanded "><a href="../LICENSE.html"><strong aria-hidden="true">4.</strong> LICENSE</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">[ rsapkf / 42 ]</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/rsapkf/42" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#random-cool-sites" id="random-cool-sites">Random Cool Sites</a></h1>
+<ul>
+<li>
+<p>Sites/</p>
+<ul>
+<li>
+<p><a href="https://monitor.firefox.com/">Firefox Monitor</a> - See if you’ve been part of an online data breach.</p>
+</li>
+<li>
+<p><a href="https://haveibeenpwned.com/">Have I Been Pwned</a> - Check if your email has been compromised in a data breach.</p>
+</li>
+<li>
+<p><a href="https://lkml.org/">LKML.ORG</a> - the Linux Kernel Mailing List Archive.</p>
+</li>
+<li>
+<p><a href="https://cs.opensource.google/">Google Code Search</a> - Search all projects for code or files.</p>
+</li>
+<li>
+<p><a href="https://davebakker.io/onepagecalendar/">One Page Calendar 2020</a></p>
+</li>
+<li>
+<p><a href="http://www.facesofopensource.com/">Faces of Open Source</a></p>
+</li>
+<li>
+<p><a href="https://startyourownisp.com/">Start Your Own ISP</a></p>
+</li>
+<li>
+<p><a href="https://www.whereisroadster.com/">Where is Starman</a></p>
+</li>
+<li>
+<p><a href="https://appsco.pe/">Appscope</a> - directory for Progressive Web Apps (PWAs).</p>
+</li>
+<li>
+<p><a href="https://esolangs.org/wiki/Main_Page">Esolangs</a></p>
+</li>
+<li>
+<p><a href="https://www.thispersondoesnotexist.com/">This Person Does Not Exist</a></p>
+</li>
+<li>
+<p><a href="http://isthisprime.com/game/">Is This Prime?</a></p>
+</li>
+<li>
+<p><a href="https://fuckinghomepage.com/">f cking homepage</a></p>
+</li>
+<li>
+<p><a href="https://osgameclones.com/">Open Source Game clones</a></p>
+</li>
+<li>
+<p><a href="https://books.google.com/ngrams">Google Ngram Viewer</a></p>
+</li>
+<li>
+<p><a href="https://support.google.com/mail/answer/7190">Gmail Search Operators</a></p>
+</li>
+<li>
+<p><a href="https://www.keanuisimmortal.com/">Keanu Reeves is Immortal</a></p>
+</li>
+<li>
+<p><a href="https://youglish.com/">Youglish</a> - Use YouTube to improve your English pronunciation.</p>
+</li>
+<li>
+<p><a href="http://txti.es/">txti</a> - Fast web pages for everybody.</p>
+</li>
+<li>
+<p><a href="http://www.petesqbsite.com/index.php">Pete's QBASIC/QuickBasic Site</a></p>
+</li>
+<li>
+<p><a href="http://oldweb.today/">oldweb.today</a></p>
+</li>
+<li>
+<p><a href="https://developers.google.com/speed/pagespeed/insights/">Google Pagespeed Insights</a></p>
+</li>
+<li>
+<p><a href="https://testmysite.io/">testmysite.io</a> - Testmysite.io rates your site based on its initial global load times and its security settings.</p>
+</li>
+<li>
+<p><a href="https://hackernewstitles.netlify.com/">Hacker News Title Edit Tracker</a></p>
+</li>
+<li>
+<p><a href="https://git.io/">Git.io</a> - Official GitHub link shortener.</p>
+</li>
+<li>
+<p><a href="https://www.sketchywebsite.net/">Sketchysite</a> - You can trust this.</p>
+</li>
+<li>
+<p><a href="https://emojipedia.org/">Emojipedia</a> - Emojipedia.</p>
+</li>
+<li>
+<p><a href="https://www.timeanddate.com/">timeanddate.com</a></p>
+</li>
+<li>
+<p><a href="https://www.looper.com/">Looper</a> - Endless Entertainment.</p>
+</li>
+<li>
+<p><a href="http://makeanddo4d.com/spreadsheet/">Spreadsheet Converter</a> - Things to Make and Do in the Fourth Dimension.</p>
+</li>
+<li>
+<p><a href="https://ctf101.org/">CTF&gt;101</a> - learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.</p>
+</li>
+<li>
+<p><a href="https://quickdraw.withgoogle.com/">Quick, Draw</a> -  Can a neural network learn to recognize doodling?</p>
+</li>
+<li>
+<p><a href="https://random.country/">random.country</a></p>
+</li>
+<li>
+<p><a href="https://randomcity.net/">random.city</a></p>
+</li>
+<li>
+<p><a href="http://radiooooo.com/">Radiooooo</a> - The wonderful musical machine that allows you to travel through space and time!</p>
+</li>
+<li>
+<p><a href="https://www.fandom.com/explore">Wikia/FANDOM Explore</a> - The Fan-trusted Source in Entertainment.</p>
+</li>
+<li>
+<p><a href="https://tvchart.benmiz.com/">TV Chart</a> - see a graph of any TV show's IMDb ratings, by episode.</p>
+</li>
+<li>
+<p><a href="https://www.famousscientists.org/">Famous Scientists</a> - educational resource focusing on the lives and achievements of the most famous scientists and inventors in history.</p>
+</li>
+<li>
+<p>Dictionaries</p>
+<ul>
+<li><a href="https://en.wiktionary.org/">Wikitionary</a> - the free dictionary.</li>
+<li><a href="https://www.merriam-webster.com/">Merrian Webster</a> - since 1828.</li>
+<li><a href="https://www.urbandictionary.com/">Urban Dictionary</a> - crowdsourced online dictionary for slang words and phrases.</li>
+<li><a href="https://www.dictionary.com/">Dictionary.com</a></li>
+<li><a href="https://www.webopedia.com/">Webopedia</a> - Online Tech Dictionary for Students, Educators and IT Professionals.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>YouTube/</p>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCRcgy6GzDeccI7dkbbBna3Q">LEMMiNO</a></li>
+<li><a href="https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ">PowerfulJRE</a> - Joe Rogan.</li>
+<li><a href="https://www.youtube.com/channel/UCNAxrHudMfdzNi6NxruKPLw">Sam Harris</a> - Sam Harris.</li>
+<li><a href="https://www.youtube.com/channel/UCGaVdbSav8xWuFWTadK6loA">vlogbrothers</a></li>
+<li><a href="https://www.youtube.com/channel/UCfdNM3NAhaBOXCafH7krzrA">The Infographics Show</a></li>
+<li><a href="https://www.youtube.com/channel/UCMu5gPmKp5av0QCAajKTMhw">ERB</a></li>
+<li><a href="https://www.youtube.com/channel/UCaut53cnrdipyo47R-a3tEw">ERB2</a></li>
+<li><a href="https://www.youtube.com/channel/UCBZiUUYeLfS5rIj4TQvgSvA">Channel Super Fun</a></li>
+<li><a href="https://www.youtube.com/channel/UCpFFItkfZz1qz5PpHpqzYBw">Nexpo</a></li>
+<li><a href="https://www.youtube.com/channel/UC8EQAfueDGNeqb1ALm0LjHA">Exploring Alternatives</a></li>
+<li><a href="https://www.youtube.com/channel/UCHCph-_jLba_9atyCZJPLQQ">How It Should Have Ended</a></li>
+<li><a href="https://www.youtube.com/channel/UCxDZs_ltFFvn0FDHT6kmoXA">bald and bankrupt</a> - Mr. Bald.</li>
+<li><a href="https://www.youtube.com/channel/UC6-ymYjG0SU0jUWnWh9ZzEQ">Wisecrack</a></li>
+<li><a href="https://www.youtube.com/channel/UC3sznuotAs2ohg_U__Jzj_Q">The Film Theorists</a></li>
+<li><a href="https://www.youtube.com/channel/UCbpMy0Fg74eXXkvxJrtEn3w">Bon Appétit</a></li>
+<li><a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA">Primitive Technology</a></li>
+<li><a href="https://www.youtube.com/channel/UCaGOgwGKnDVOKY0DrFsBAiA">ScareTheater</a></li>
+<li><a href="https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA">Sam O'Nella Academy</a></li>
+<li><a href="https://www.youtube.com/channel/UCRijo3ddMTht_IHyNSNXpNQ">Dude Perfect</a></li>
+<li><a href="https://www.youtube.com/channel/UCSrPuHtKbst7Zy8pyWn_3Cg">What's Inside?</a></li>
+<li><a href="https://www.youtube.com/channel/UCI4I6ldZ0jWe7vXpUVeVcpg">Household Hacker</a></li>
+<li><a href="https://www.youtube.com/channel/UCnxGkOGNMqQEUMvroOWps6Q">JRE Clips</a> - Joe Rogan.</li>
+<li><a href="https://www.youtube.com/channel/UCL_f53ZEJxp8TtlOkHwMV9Q">Jordan B Peterson</a> - Jordan B Peterson.</li>
+<li><a href="https://www.youtube.com/channel/UCnmgSO_4g6QcRzy0yFeglyA">Grand Illusions</a> - Tim Rowett.</li>
+<li><a href="https://www.youtube.com/channel/UCo8bcnLyZH8tBIH9V1mLgqQ">TheOdd1sOut</a></li>
+<li><a href="https://www.youtube.com/channel/UCGwu0nbY2wSkW8N-cghnLpA">Jaiden Animations</a></li>
+<li><a href="https://www.youtube.com/channel/UCP1iRaFlS5EYjJBryFV9JPw">Looper</a></li>
+</ul>
+</li>
+<li>
+<p>Reddit/</p>
+<ul>
+<li>
+<p>Personal Finance</p>
+<ul>
+<li><a href="https://www.reddit.com/r/personalfinance">r/personalfinance</a></li>
+<li><a href="https://www.reddit.com/r/Frugal">r/Frugal</a></li>
+<li><a href="https://www.reddit.com/r/investing">r/investing</a></li>
+<li><a href="https://www.reddit.com/r/financialindependence">r/financialindependence</a></li>
+<li><a href="https://www.reddit.com/r/stocks">r/stocks</a></li>
+</ul>
+</li>
+<li>
+<p>Outdoors</p>
+<ul>
+<li><a href="https://www.reddit.com/r/camping">r/camping</a></li>
+<li><a href="https://www.reddit.com/r/CampingandHiking">r/CampingandHiking</a></li>
+<li><a href="https://www.reddit.com/r/hiking">r/hiking</a></li>
+<li><a href="https://www.reddit.com/r/gardening">r/gardening</a></li>
+<li><a href="https://www.reddit.com/r/Survival">r/Survival</a></li>
+</ul>
+</li>
+<li>
+<p>Memes</p>
+<ul>
+<li><a href="https://www.reddit.com/r/memes">r/memes</a></li>
+<li><a href="https://www.reddit.com/r/HighQualityGifs">r/HighQualityGifs</a></li>
+<li><a href="https://www.reddit.com/r/Unexpected">r/Unexpected</a></li>
+<li><a href="https://www.reddit.com/r/MurderedByWords">r/MurderedByWords</a></li>
+<li><a href="https://www.reddit.com/r/BrandNewSentence">r/BrandNewSentence</a></li>
+<li><a href="https://www.reddit.com/r/iamverysmart">r/iamverysmart</a></li>
+<li><a href="https://www.reddit.com/r/hmmm">r/hmmm</a></li>
+<li><a href="https://www.reddit.com/r/me_irl">r/me_irl</a></li>
+<li><a href="https://www.reddit.com/r/wholesomememes">r/wholesomememes</a></li>
+<li><a href="https://www.reddit.com/r/starterpacks">r/starterpacks</a></li>
+<li><a href="https://www.reddit.com/r/MadeMeSmile">r/MadeMeSmile</a></li>
+<li><a href="https://www.reddit.com/r/madlads">r/madlads</a></li>
+<li><a href="https://www.reddit.com/r/therewasanattempt">r/therewasanattempt</a></li>
+<li><a href="https://www.reddit.com/r/4chan">r/4chan</a></li>
+<li><a href="https://www.reddit.com/r/greentext">r/greentext</a></li>
+<li><a href="https://www.reddit.com/r/BikiniBottomTwitter">r/BikiniBottomTwitter</a></li>
+</ul>
+</li>
+<li>
+<p>Other</p>
+<ul>
+<li><a href="https://www.reddit.com/r/IAmA">r/IAmA</a></li>
+<li><a href="https://www.reddit.com/r/Showerthoughts">r/Showerthoughts</a></li>
+<li><a href="https://www.reddit.com/r/news">r/news</a></li>
+<li><a href="https://www.reddit.com/r/worldnews">r/worldnews</a></li>
+<li><a href="https://www.reddit.com/r/UpliftingNews">r/UpliftingNews</a></li>
+<li><a href="https://www.reddit.com/r/Videos">r/Videos</a></li>
+<li><a href="https://www.reddit.com/r/MapPorn">r/MapPorn</a></li>
+<li><a href="https://www.reddit.com/r/books">r/books</a></li>
+<li><a href="https://www.reddit.com/r/Art">r/Art</a></li>
+<li><a href="https://www.reddit.com/r/Documentaries">r/Documentaries</a></li>
+<li><a href="https://www.reddit.com/r/MovieDetails">r/MovieDetails</a></li>
+<li><a href="https://www.reddit.com/r/movies">r/movies</a></li>
+<li><a href="https://www.reddit.com/r/HistoryPorn">r/HistoryPorn</a></li>
+<li><a href="https://www.reddit.com/r/AskHistorians">r/AskHistorians</a></li>
+<li><a href="https://www.reddit.com/r/LifeProTips">r/LifeProTips</a></li>
+<li><a href="https://www.reddit.com/r/ShittyLifeProTips">r/ShittyLifeProTips</a></li>
+<li><a href="https://www.reddit.com/r/pics">r/pics</a></li>
+<li><a href="https://www.reddit.com/r/InternetIsBeautiful">r/InternetIsBeautiful)</a></li>
+<li><a href="https://www.reddit.com/r/AskReddit">r/AskReddit</a></li>
+<li><a href="https://www.reddit.com/r/changemyview">r/changemyview</a></li>
+<li><a href="https://www.reddit.com/r/Damnthatsinteresting">r/Damnthatsinteresting</a></li>
+<li><a href="https://www.reddit.com/r/Interestingasfuck">r/Interestingasf ck</a></li>
+<li><a href="https://www.reddit.com/r/mildlyinteresting">r/mildlyinteresting</a></li>
+<li><a href="https://www.reddit.com/r/wallpaper">r/wallpaper</a></li>
+<li><a href="https://www.reddit.com/r/OutOfTheLoop">r/OutOfTheLoop</a></li>
+<li><a href="https://www.reddit.com/r/explainlikeimfive">r/explainlikeimfive</a></li>
+<li><a href="https://www.reddit.com/r/YouShouldKnow">r/YouShouldKnow</a></li>
+<li><a href="https://www.reddit.com/r/NoStupidQuestions">r/NoStupidQuestions</a></li>
+<li><a href="https://www.reddit.com/r/TooAfraidToAsk">r/TooAfraidToAsk</a></li>
+<li><a href="https://www.reddit.com/r/quityourbullshit">r/quityourbullshit</a></li>
+<li><a href="https://www.reddit.com/r/unpopularopinion">r/unpopularopinion</a></li>
+<li><a href="https://www.reddit.com/r/nottheonion">r/nottheonion</a></li>
+<li><a href="https://www.reddit.com/r/assholedesign">r/assholedesign</a></li>
+<li><a href="https://www.reddit.com/r/CrappyDesign">r/CrappyDesign</a></li>
+<li><a href="https://www.reddit.com/r/Jokes">r/Jokes</a></li>
+<li><a href="https://www.reddit.com/r/podcasts">r/podcasts</a></li>
+<li><a href="https://www.reddit.com/r/PoliticalHumor">r/PoliticalHumor</a></li>
+<li><a href="https://www.reddit.com/r/politics">r/politics</a></li>
+<li><a href="https://www.reddit.com/r/worldpolitics">r/worldpolitics</a></li>
+<li><a href="https://www.reddit.com/r/coolguides">r/coolguides</a></li>
+<li><a href="https://www.reddit.com/r/mildlyinfuriating">r/mildlyinfuriating</a></li>
+<li><a href="https://www.reddit.com/r/BeAmazed">r/BeAmazed</a></li>
+<li><a href="https://www.reddit.com/r/blackmagicfuckery">r/blackmagicfuckery</a></li>
+<li><a href="https://www.reddit.com/r/nextfuckinglevel">r/nextf ckinglevel</a></li>
+<li><a href="https://www.reddit.com/r/youseeingthisshit">r/youseeingthisshit</a></li>
+<li><a href="https://www.reddit.com/r/BetterEveryLoop">r/BetterEveryLoop</a></li>
+<li><a href="https://www.reddit.com/r/woahdude">r/woahdude</a></li>
+<li><a href="https://www.reddit.com/r/Music">r/Music</a></li>
+<li><a href="https://www.reddit.com/r/IsItBullshit">r/IsItBullshit</a></li>
+<li><a href="https://www.reddit.com/r/findareddit">r/findareddit</a></li>
+<li><a href="https://www.reddit.com/r/IWantToLearn">r/IWantToLearn</a></li>
+<li><a href="https://www.reddit.com/r/UnresolvedMysteries">r/UnresolvedMysteries</a></li>
+<li><a href="https://www.reddit.com/r/rickandmorty">r/rickandmorty</a></li>
+<li><a href="https://www.reddit.com/r/breakingbad">r/breakingbad</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Podcasts/</p>
+<ul>
+<li>
+<p>Science</p>
+<ul>
+<li><a href="https://www.preposterousuniverse.com/podcast/">The MindScape Podcast</a> - Sean Caroll.</li>
+<li><a href="https://www.startalkradio.net/">StarTalk</a> - Neil deGrasse Tyson, Chuck Norris.</li>
+<li><a href="https://www.hellointernet.fm/">Hello Internet</a> - CGP Grey, Brady Haran.</li>
+<li><a href="http://www.radiolab.org/">Radiolab</a></li>
+<li><a href="https://www.theskepticsguide.org/">The Skeptic's Guide to the Universe</a></li>
+<li><a href="https://stuffyoushouldknow.com/">Stuff You Should Know</a> - Josh Clark, Chuck Bryant</li>
+</ul>
+</li>
+<li>
+<p>Math</p>
+<ul>
+<li><a href="https://www.numberphile.com/podcast">The Numberphile Podcast</a> - Brady Haran.</li>
+</ul>
+</li>
+<li>
+<p>Programming</p>
+<ul>
+<li><a href="https://talkpython.fm/">Talk Python</a> - Michael Kennedy.</li>
+<li><a href="https://syntax.fm/">Syntax</a></li>
+<li><a href="https://changelog.com/podcast">The Changelog</a></li>
+<li><a href="https://blog.codepen.io/radio/">Codepen Radio</a></li>
+<li><a href="https://softwareengineeringdaily.com/">Software Engineering Daily</a></li>
+<li><a href="https://www.npr.org/podcasts/510313/how-i-built-this">How I Built This</a></li>
+</ul>
+</li>
+<li>
+<p>Technology</p>
+<ul>
+<li><a href="https://www.vox.com/recode">Recode Decode</a> - Kara Swicher.</li>
+<li><a href="https://darknetdiaries.com/">Darknet Diaries</a> - Jack Rhysider.</li>
+<li><a href="https://irlpodcast.org/">IRL: Online Life Is Real Life</a> - Mozilla.</li>
+<li><a href="https://www.iheart.com/podcast/105-techstuff-26941194/">TechStuff</a></li>
+<li><a href="https://gimletmedia.com/reply-all/">Reply All</a></li>
+<li><a href="https://malicious.life/">Malicious Life</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLO79iP69FaZPKaMDoSPAtGdoa3wd3lp9n">The Chernobyl Podcast</a> - HBO.</li>
+</ul>
+</li>
+<li>
+<p>Philosophy/General</p>
+<ul>
+<li><a href="https://www.joerogan.com/#jre-section">The Joe Rogan Experience</a> - Joe Rogan.</li>
+<li><a href="https://samharris.org/podcast/">Making Sense</a> - Sam Harris.</li>
+<li><a href="http://philosophizethis.org/">Philosophize This!</a> - Stephen West.</li>
+<li><a href="https://www.jordanbpeterson.com/podcast/">The Jordan B. Peterson Podcast</a> - Jordan Peterson.</li>
+<li><a href="https://www.thenosleeppodcast.com/">The NoSleep Podcast</a></li>
+<li><a href="https://www.iheart.com/podcast/stuff-you-missed-in-history-cl-21124503/">Stuff You Missed In History Classes</a></li>
+<li><a href="https://www.iheart.com/podcast/182-stuff-they-dont-want-you-t-26941221/">Stuff They Don't Want You To Know</a></li>
+<li><a href="https://www.dailywire.com/show/the-ben-shapiro-show">The Ben Shapiro Show</a> - Ben Shapiro.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3><a class="header" href="#lists-articles" id="lists-articles">Lists, Articles</a></h3>
+<ul>
+<li>
+<p>Ask HN Threads/</p>
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=21235957">What do you self-host?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=4761102">How to get your IP unbanned on HN.</a></li>
+<li><a href="https://news.ycombinator.com/item?id=21581361">What's the most valuable thing you can learn in an hour?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=20264911">Ask HN: What do you do with your Raspberry Pi?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=11070797">Ask HN: What do you use to manage dotfiles?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=22918980">Ask HN: I'm a software engineer going blind, how should I prepare?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=639976">How I Hacked Hacker News (with arc security advisory)</a></li>
+</ul>
+</li>
+<li>
+<p>Reddit Threads/</p>
+<ul>
+<li><a href="https://old.reddit.com/r/AskReddit/comments/f937om/what_is_the_coolest_website_youve_visited_that_no/">What is the coolest website you’ve visited that no one knows about? (r/AskReddit, 25 Feb 2020)</a></li>
+</ul>
+</li>
+<li>
+<p>Wikipedia Pages/</p>
+<ul>
+<li>
+<p>Phiolosophy/Psychology </p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Stoicism">Stoicism</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">List of cognitive biases</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Curse_of_knowledge">Curse of knowledge</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Autodidacticism">Autodidacticism</a> (<a href="https://en.wikipedia.org/wiki/List_of_autodidacts">List of autodidacts</a>)</li>
+</ul>
+</li>
+<li>
+<p>Computing</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sockpuppet_(Internet)">Sockpuppet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HTTP_451">HTTP 451</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Editor_war">Editor War</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Information_overload">Infobesity</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pale_Blue_Dot">Pale Blue Dot</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Year_2038_problem">Year 2038 problem</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Year_2000_problem">Year 2000 problem</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rickrolling">Rickrolling</a></li>
+<li><a href="https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture)">1% Rule (Internet culture)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Other/</p>
+<ul>
+<li><a href="http://www.catb.org/esr/faqs/things-every-hacker-once-knew/">Things Every Hacker Once Knew</a> by Eric S. Raymond.</li>
+<li><a href="http://www.norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a> - Peter Norwig</li>
+<li><a href="https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a> - Oracle Docs.</li>
+<li><a href="https://0.30000000000000004.com/">0.30000000000000004.com</a> - Floating Point Math.</li>
+<li><a href="https://web.eecs.utk.edu/%7Eazh/blog/challengingprojects.html">Challenging projects every programmer should try</a></li>
+<li><a href="http://rudy.ca/doomsday.html">Doomsday Algorithm</a> - The Doomsday Algorithm gives the day of the week for any date (and you can do it in your head).</li>
+<li><a href="https://www.atlassian.com/git/tutorials/dotfiles">How to store dotfiles - Atlassian</a></li>
+<li><a href="https://duckduckgo.com/bang">DuckDuckGo !Bang</a></li>
+<li><a href="https://duck.co/ia">DuckDuckGo Instant Answers</a></li>
+<li><a href="https://www.theguardian.com/us-news/2019/jun/26/how-to-speak-silicon-valley-decoding-tech-bros-from-microdosing-to-privacy">How to speak Silicon Valley: 53 essential tech-bro terms explained</a> - The Guardian.</li>
+<li><a href="https://help.github.com/en/articles/removing-sensitive-data-from-a-repository">Removing sensitive data from a repository - GitHub Help</a></li>
+<li><a href="https://gist.github.com/rxaviers/7360908">Complete list of github markdown emoji markup</a></li>
+<li><a href="https://www.reddit.com/wiki/nifty">Nifty Reddit tricks</a></li>
+<li><a href="https://twobithistory.org/2019/08/22/readline.html">Things You Didn't Know About GNU Readline </a></li>
+<li><a href="http://rigaux.org/language-study/syntax-across-languages.html">syntax across languages</a></li>
+<li><a href="http://captf.com/practice-ctf/">Practice CTF List</a> - Jordan Wiens.</li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../docs/cubing-puzzles-and-magic.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../docs/ebooks-and-research-papers.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../docs/cubing-puzzles-and-magic.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../docs/ebooks-and-research-papers.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
